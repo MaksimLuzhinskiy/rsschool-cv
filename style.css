@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    height: 400px;
+    width: 80%;
+    margin:auto;
+    padding:20px 0 0 0;
+}
+.main-img{
+    width:30%;
+}
+.about{
+    width:70%;
+}
+.my_photo{
+    width: 100%;
+}
