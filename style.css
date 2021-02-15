@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 400px;
+    width: 80%;
+    margin:auto;
+    padding:20px 0 0 0;
+}
+.main-img{
+    width:30%;
+}
+.about{
+    width:60%;
+}
+.my_photo{
+    width: 100%;
+}
+.about{
+    padding:40px;
+}
+.about-name,.about-link,.info{
+    font-size:28px;
+}
+.about-link{
+    margin-top:20px;
+}
+.about-link-list{
+    list-style:none;
+}
+ul li a{
+    text-decoration: none;
+}
+.info{
+    padding-top:20px;
+}
