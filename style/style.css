@@ -1,0 +1,42 @@
+@font-face{
+    font-family: 'Con-Light';
+    src: url(/fonts/FiraSansCondensed-Light.ttf);
+}
+@font-face{
+    font-family: 'Con-Medium';
+    src: url(/fonts/FiraSansCondensed-Medium.ttf);
+}
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.main-page{
+    width: 95%;
+    margin:auto;
+    padding:20px 0 0 0;
+}
+.name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width:100%;
+    background-color:  #00bfff ;
+    border: 1px solid  #00bfff ;
+}
+.name__photo{
+    width:140px;
+    height:auto;
+    border-radius: 100px;
+    border: 4px solid #ffffff;
+}
+.name__first-name, .name__second-name{
+    font-family:Con-Medium;
+}
+.name__first-name{
+    margin-right:30px;
+}
+.name__second-name{
+    margin-left:30px;
+}
