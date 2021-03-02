@@ -1,10 +1,10 @@
 @font-face{
     font-family: 'Con-Light';
-    src: url(/fonts/FiraSansCondensed-Light.ttf);
+    src: url(../fonts/FiraSansCondensed-Light.ttf);
 }
 @font-face{
     font-family: 'Con-Medium';
-    src: url(/fonts/FiraSansCondensed-Medium.ttf);
+    src: url(../fonts/FiraSansCondensed-Medium.ttf);
 }
 ul{
     margin:0;
