@@ -1,0 +1,18 @@
+@media (max-width:768px){
+    .other-info{
+        grid-template-columns: 100%;
+    }
+}
+@media (max-width:478px){
+    .name{
+        height: 230px;
+        flex-direction: column;
+        padding:0 0 0 0;
+    }
+    .name__first-name{
+        margin:0;
+    }
+    .name__second-name{
+        margin:0;
+    }
+}
